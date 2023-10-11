@@ -1,0 +1,50 @@
+"GameInfo"
+{
+	game 		"Portal-Life 2"
+	title 		"PORTAL-LIFE2"
+	supportsvr	1
+	hasportals	1
+
+	type		singleplayer_only
+	"icon"			"resource/icon"
+
+	FileSystem
+	{
+
+		SteamAppId				243730
+
+		SearchPaths
+		{
+			game+mod			|gameinfo_path|custom/*
+			game+mod+mod_write+default_write_path		|gameinfo_path|.
+			gamebin				|gameinfo_path|bin
+			game				|gameinfo_path|.
+
+			game				|gameinfo_path|portallife2.vpk
+
+		//	game+mod			"|all_source_engine_paths|../portal/portal/custom/*"
+		//	game+mod			"|all_source_engine_paths|../half-life 2/lostcoast/custom/*"
+		//	game+mod			"|all_source_engine_paths|../half-life 2/ep2/custom/*"
+		//	game+mod			"|all_source_engine_paths|../half-life 2/episodic/custom/*"
+		//	game+mod			"|all_source_engine_paths|../half-life 2/hl2/custom/*"
+			
+			game				"|all_source_engine_paths|../portal/portal/portal_sound_vo_english.vpk"
+			game				"|all_source_engine_paths|../portal/portal/portal_pak.vpk"
+			game				"|all_source_engine_paths|../half-life 2/lostcoast/lostcoast_pak.vpk"
+			game				"|all_source_engine_paths|../half-life 2/ep2/ep2_pak.vpk"
+			game				"|all_source_engine_paths|../half-life 2/episodic/ep1_pak.vpk"
+			game				"|all_source_engine_paths|../half-life 2/hl2/hl2_textures.vpk"
+			game				"|all_source_engine_paths|../half-life 2/hl2/hl2_sound_vo_english.vpk"
+			game				"|all_source_engine_paths|../half-life 2/hl2/hl2_sound_misc.vpk"
+			game				"|all_source_engine_paths|../half-life 2/hl2/hl2_misc.vpk"
+			platform			"|all_source_engine_paths|../half-life 2/platform/platform_misc.vpk"
+
+			game				"|all_source_engine_paths|../portal/portal"
+			game				"|all_source_engine_paths|../half-life 2/lostcoast"
+			game				"|all_source_engine_paths|../half-life 2/ep2"
+			game				"|all_source_engine_paths|../half-life 2/episodic"
+			game				"|all_source_engine_paths|../half-life 2/hl2"
+			platform			"|all_source_engine_paths|../half-life 2/platform"
+		}
+	}
+}
